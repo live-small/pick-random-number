@@ -1,7 +1,3 @@
-export const isEmptyString = (string) => {
-  return string.length === 0;
-};
-
 const getRandomIndex = (numberArray) => {
   if (numberArray.length === 1) return 0;
 

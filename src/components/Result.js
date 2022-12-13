@@ -11,10 +11,13 @@ export default function Result({ $container, initialState }) {
 
   this.render = () => {
     $resultContainer.innerHTML = `
+			<h2 class="result-title">결과</h2>
 			<table>
 				<thead>
-					<tr>참여자</tr>
-					<tr>랜덤 번호</tr>
+					<tr>
+						<th>참여자</th>
+						<th>랜덤번호</th>
+					</tr>
 				</thead>
 				<tbody>
 					${this.state

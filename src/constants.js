@@ -1,1 +1,1 @@
-export const csStudyParticipants = ['수화', '은지', '예지', '천욱'];
+export const csStudyParticipants = ['수화', '은지', '천욱', '민형', '명재'];
